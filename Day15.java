@@ -26,6 +26,7 @@ public class Day15 {
 
         weekdays.removeIf(ai -> ai.toLowerCase().startsWith(String.valueOf(brr)));
         e.recorrerLista(weekdays);
+        
         //También funciona esto
         // Collections.sort(weekdays);
         // e.recorrerLista(weekdays);
